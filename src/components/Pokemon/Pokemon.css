@@ -1,0 +1,25 @@
+.pokemon{
+    margin: 5rem;
+    flex-basis: 20%;
+    height: 300px;
+    width: 150px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.pokemon-name{
+    font-size: larger;
+    letter-spacing: 1rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.pokemon>img{
+    height: 150px;
+    margin-top: 3rem;
+    max-height: 100px;
+    
+}
+.pokemon:hover{
+    background-color: beige;
+}
