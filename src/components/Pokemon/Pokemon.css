@@ -19,8 +19,6 @@
         font-size: 1.75em;
         font-weight: 900;
         font-family: Montserrat, sans-serif;
-        
-        /* Gradient applied to text */
         background: linear-gradient(to right, #a78fb1, #20002c);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
