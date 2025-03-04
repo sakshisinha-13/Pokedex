@@ -5,7 +5,7 @@ function Pokedex(){
     return (
         <>
             <div className="pokedex-wrapper">
-                <Search/>
+                {/* <Search/> */}
                 <PokemonList/>
             </div>
         </>

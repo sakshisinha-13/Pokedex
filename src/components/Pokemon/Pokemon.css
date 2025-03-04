@@ -1,5 +1,5 @@
 .pokemon{
-    margin: 5rem;
+    margin: 2.5rem;
     flex-basis: 20%;
     height: 300px;
     width: 150px;
@@ -7,14 +7,27 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    padding: 2rem;
+
 }
 .pokemon-name{
-    font-size: larger;
-    text-transform: uppercase;
-    letter-spacing: 13px;
-    text-align: center;
-    margin-bottom: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        padding-top: 18px;
+        font-size: 1.75em;
+        font-weight: 900;
+        font-family: Montserrat, sans-serif;
+        
+        /* Gradient applied to text */
+        background: linear-gradient(to right, #a78fb1, #20002c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
 }
+
 .pokemon-image{
     width: 100%; 
     height: auto; 
@@ -23,4 +36,6 @@
     }
 .pokemon:hover{
     background-color: beige;
+    border-radius: 55px;
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
 }
