@@ -2,16 +2,27 @@
 
 A React-based Pokedex application that allows users to search, browse, and view detailed information about Pokémon.
 
+Live Demo
+Netlify: https://pokedex-web-application.netlify.app/
+Vercel: https://pokedex-umber-three.vercel.app/
+
 ## Features
 
-- **Search**: Filter Pokémon by name.
-- **Browse**: View a list of Pokémon with their images.
-- **Details**: View detailed information about each Pokémon.
+- Display of Pokémon images, types, abilities, and base stats.
+- Responsive design compatible with various devices.
+- View detailed information about each Pokémon.
+
+## Technologies Used
+Frontend: React.js, HTML5, CSS3, JavaScript
+API: PokeAPI
+Deployment: Netlify, Vercel
 
 ## Installation
-
-To get started with the Pokedex app, follow these steps:
-
 1. Clone the repository:
-   ```bash
    git clone https://github.com/sakshisinha-13/Pokedex.git
+2. Navigate to the project directory:
+   cd Pokedex
+3. Install dependencies:
+   npm install
+4. Start the development server:
+   npm start
